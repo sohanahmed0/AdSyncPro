@@ -14,7 +14,44 @@
   <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-
+  
+  <div class="main-container">
+    
+      <div class="user-info">
+        <img src="#" alt="user-profile-pic" class="profile-pic">
+        <div class="user-details">
+          <h2 id="userName">Your name</h2>
+          <p>Number:<span id="userNumber">000</span></p>
+        </div>
+      </div>
+      
+      <div class="balance-info">
+        <p>Points:<span id="userPoint">000</span></p>
+        <p>Balance:<span id="userBalance">000</span></p>
+      </div>
+      
+      <div class="ad-container">
+        <h2>Complete Reward Task</h2>
+        <button onclick="adShow()">Get Reward</button>
+      </div>
+      
+      <div class="button-nav">
+        <span><i class="fas fa-home"></i></span>
+        <span><i class="fas fa-share-alt"></i></span>
+        <span><i class="fas fa-user"></i></span>
+      </div>
+      
+      <div id="userForm">
+        <div class="form-content">
+          <h3>Your name and phone number</h3>
+          <input type="text" name="name" placeholder="Enter your name"> <br >
+          <input type="phone" name="phone" placeholder="Enter your phone number"> <br >
+          <button onclick="saveUserInfo()">Submit</button>
+        </div>
+      </div>
+      
+  </div>
+  
   <script src="./js/app.js"></script>
 </body>
 </html>
