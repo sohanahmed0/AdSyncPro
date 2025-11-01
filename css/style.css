@@ -6,15 +6,46 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  text-align: center;
-  color: #ff7621;
+  color: #fff;
   background: linear-gradient(135deg, #0f0c29, #3e5b63, #24243e);
 }
 
+/* utility classes strat*/
+div.container {
+  margin: 15px 0;
+  padding: 10;
+} 
+/* utility classes ends*/
+
+
 .main-container {
   background: rgba(0,0,0,0.900);
+  text-align: center;
   width: 350px;
   border-radius: 25px;
-  padding: 30px;
+  padding: 20px 30px;
+}
+
+.container h1 {
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+  color: #00ffcc;
+  opacity: 0.95;
+}
+
+.container  a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 8px 25px;
+  border-radius: 12px;
+  color: #fff;
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+
+.container h5{
+  display: inline-block;
+  padding: 6px;
+  border-radius: 8px;
+  border: 2px solid #00ffcc;
 }
 
