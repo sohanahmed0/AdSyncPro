@@ -1,6 +1,20 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+body {
+  font-family: 'poppins' sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+  color: #ff7621;
+  background: linear-gradient(135deg, #0f0c29, #3e5b63, #24243e);
+}
+
+.main-container {
+  background: rgba(0,0,0,0.900);
+  width: 350px;
+  border-radius: 25px;
+  padding: 30px;
 }
 
