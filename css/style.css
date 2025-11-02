@@ -20,6 +20,16 @@ button {
   padding: 10px;
   text-align: center;
 } 
+
+input, select, .btn  {
+  width: 90%;
+  margin: 5px 0;
+}
+
+select , input::placeholder {
+  color: #808080;
+} 
+
 /* utility classes ends*/
 
 body {
@@ -27,15 +37,13 @@ body {
   min-height: 100vh;
   color: #fff;
   background: #5A4FCF ;
-
 }
 
 .main-container {
   background: rgba(0,0,0,0.900);
   text-align: center;
   width: 350px;
-  border-radius: 25px;
-  padding: 20px 30px;
+  padding: 10px 30px;
 }
 
 .container h1 {
@@ -74,4 +82,25 @@ body {
   padding: 8px 0;
   font-size: 18px;
   color: #fff;
+}
+
+.withdraw-container {
+  background: #282828;
+  padding: 10px 0;
+}
+
+.withdraw-container input, select{
+  padding: 6px;
+  background: rgba(0, 0, 0, 0.800);
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+
+.withdraw-container button {
+  padding: 10px 25px;
+  border-radius: 12px;
+  color: #fff;
+  background: rgb(100,149,237);
+  background: linear-gradient(159deg, rgba(100,149,237,1) 0%, rgba(124,158,195,1) 100%);
 }
