@@ -22,12 +22,14 @@ document.addEventListener('DOMContentLoaded', checkSdk);
 document.getElementById('watchAdBtn').addEventListener('click', ()=>{
   if (!monetagSdkLoaded) {alert('Ad service not loaded'); return;}
   show_9828804().then(() => {
-    watchedAdsCount++;
+    watchAdCount++;
     earnBalance += 2;
     document.getElementById('adsCount').innerText = watchAdCount;
     document.getElementById('balanceCount').innerText = earnBalance;
-    localStorage.setItem('adsCount', watchedAdsCount);
+    localStorage.setItem('adsCount', watchedAdCount);
     localStorage.setItem('balanceCount', earnBalance);
-  }).catch(error => {alert('Ad failed'); console.error(error)});
+  })
 });
+
+console.log(localStorage.getItem('adsCount'))
 
