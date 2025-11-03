@@ -85,10 +85,14 @@ body {
 }
 
 .withdraw-container {
+  display: none;
   background: #282828;
   padding: 10px 0;
 }
 
+.show {
+  display: block;
+}
 .withdraw-container input, select{
   padding: 6px;
   background: rgba(0, 0, 0, 0.800);
@@ -101,6 +105,7 @@ body {
   padding: 10px 25px;
   border-radius: 12px;
   color: #fff;
+  margin: 10px auto;
   background: rgb(100,149,237);
   background: linear-gradient(159deg, rgba(100,149,237,1) 0%, rgba(124,158,195,1) 100%);
 }
